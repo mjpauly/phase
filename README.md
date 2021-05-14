@@ -14,6 +14,10 @@
 - SDA and SCL are swapped, so a some rework is required. The traces need to be cut, soldermask has to be scraped away, and wires have to be soldered where the soldermask was removed. See the image at `img/phase_v1_0_rework.jpeg`. This will be fixed in a later version at some point.
 - Gerbers sent to the fab can be found at `phase_v1_0/JCLPCB_2020-09-21.zip`.
 
+## Part libraries
+
+All non-standard parts are in the project library except for the keyswitch footprint `Kailh_socket_MX_optional_reversible` from [daprice](https://github.com/daprice/keyswitches.pretty). Credit also goes to [Keebio](https://github.com/keebio/Keebio-Parts.pretty) for the TRRS connector footprint `TRRS-PJ-320A-dual`.
+
 ## Firmware
 
 Firmware can be found here: [https://github.com/mjpauly/qmk_firmware/tree/master/keyboards/phase](https://github.com/mjpauly/qmk_firmware/tree/master/keyboards/phase)
