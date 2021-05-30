@@ -11,7 +11,7 @@
 ## Version 1.0
 
 - Manufactured with JLCPCB, built, and tested.
-- SDA and SCL are swapped, so a some rework is required. The traces need to be cut, soldermask has to be scraped away, and wires have to be soldered where the soldermask was removed. See the image at `img/phase_v1_0_rework.jpeg`. This will be fixed in a later version at some point.
+- SDA and SCL are swapped, so some rework is required. The traces need to be cut, soldermask has to be scraped away, and wires have to be soldered where the soldermask was removed. See the image at `img/phase_v1_0_rework.jpeg`. This will be fixed in a later version at some point.
 - Gerbers sent to the fab can be found at `phase_v1_0/JCLPCB_2020-09-21.zip`.
 
 ## Part libraries
