@@ -13,7 +13,7 @@
   {
     "ProjectId":
     {
-      "Name": "phase_v1_0",
+      "Name": "phase",
       "GUID": "6d792d6b-6579-4626-9f61-72642e6b6963",
       "Revision": "rev?"
     },
@@ -40,47 +40,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "phase_v1_0-F_Cu.gbr",
+      "Path":  "phase-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "phase_v1_0-B_Cu.gbr",
+      "Path":  "phase-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "phase_v1_0-F_Paste.gbr",
+      "Path":  "phase-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "phase_v1_0-B_Paste.gbr",
+      "Path":  "phase-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "phase_v1_0-F_SilkS.gbr",
+      "Path":  "phase-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "phase_v1_0-B_SilkS.gbr",
+      "Path":  "phase-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "phase_v1_0-F_Mask.gbr",
+      "Path":  "phase-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "phase_v1_0-B_Mask.gbr",
+      "Path":  "phase-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "phase_v1_0-Edge_Cuts.gbr",
+      "Path":  "phase-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }

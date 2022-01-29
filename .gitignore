@@ -1,0 +1,11 @@
+*.DS_Store
+*.swp
+
+# kicad files to ignore
+# ref: https://en.wikibooks.org/wiki/Kicad/file_formats
+*-cache.lib
+*.sch-bak
+*.bck
+*bak
+*.000
+fp-info-cache

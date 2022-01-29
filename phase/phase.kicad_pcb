@@ -89,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "/Users/matthewpauly/Documents/KiCad/phase_v1_0/gerbers/"))
+      (outputdirectory "/Users/matthewpauly/Documents/KiCad/phase/gerbers/"))
   )
 
   (net 0 "")
@@ -319,7 +319,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask))
   )
 
-  (module phase_v1_0:squares160 (layer B.Cu) (tedit 0) (tstamp 5F693F61)
+  (module phase:squares160 (layer B.Cu) (tedit 0) (tstamp 5F693F61)
     (at 107 73.75 180)
     (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
@@ -1686,7 +1686,7 @@
       (xy -64.417222 -59.760556) (xy -63.006111 -59.760556) (xy -63.006111 -63.006111)) (layer B.SilkS) (width 0.01))
   )
 
-  (module phase_v1_0:circles160 (layer F.Cu) (tedit 0) (tstamp 5F68D3D8)
+  (module phase:circles160 (layer F.Cu) (tedit 0) (tstamp 5F68D3D8)
     (at 107 73.75 180)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -10919,7 +10919,7 @@
     )
   )
 
-  (module phase_v1_0:TRRS-PJ-320A-dual (layer F.Cu) (tedit 5F508D48) (tstamp 5F51386C)
+  (module phase:TRRS-PJ-320A-dual (layer F.Cu) (tedit 5F508D48) (tstamp 5F51386C)
     (at 169.164 103.124 270)
     (path /5F5DDBBB)
     (fp_text reference J2 (at 0 14.2 90) (layer Dwgs.User)
@@ -11288,7 +11288,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F5149D3)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F5149D3)
     (at 59.5 76.6 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -11349,7 +11349,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F514157)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F514157)
     (at 59.5 95.6 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -11410,7 +11410,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F51421D)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F51421D)
     (at 59.5 114.6 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -11471,7 +11471,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F514025)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F514025)
     (at 78.5 76.6 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -11532,7 +11532,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F5140F1)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F5140F1)
     (at 78.5 95.6 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -11593,7 +11593,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F51408B)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F51408B)
     (at 78.5 114.6 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -11654,7 +11654,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513F5F)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513F5F)
     (at 97.5 67.1 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -11715,7 +11715,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513E99)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513E99)
     (at 97.5 86.1 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -11776,7 +11776,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513E33)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513E33)
     (at 97.5 105.1 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -11837,7 +11837,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513DCD)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513DCD)
     (at 116.5 62.35 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -11898,7 +11898,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513D67)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513D67)
     (at 116.5 81.35 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -11959,7 +11959,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513D01)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513D01)
     (at 116.5 100.35 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -12020,7 +12020,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513C9B)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513C9B)
     (at 126 124.1 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -12081,7 +12081,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513C35)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513C35)
     (at 135.5 67.1 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -12142,7 +12142,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513BCF)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513BCF)
     (at 135.5 86.1 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -12203,7 +12203,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513B69)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513B69)
     (at 135.5 105.1 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -12264,7 +12264,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513B03)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513B03)
     (at 144.24 129.003 75)
     (descr SOD-123)
     (tags SOD-123)
@@ -12325,7 +12325,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513A9D)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513A9D)
     (at 154.5 69.475 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -12386,7 +12386,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513A37)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F513A37)
     (at 154.5 88.475 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -12447,7 +12447,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F5139D1)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F5139D1)
     (at 154.5 107.475 90)
     (descr SOD-123)
     (tags SOD-123)
@@ -12508,7 +12508,7 @@
     )
   )
 
-  (module phase_v1_0:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F51396B)
+  (module phase:D_SOD-123-dual (layer F.Cu) (tedit 5F508460) (tstamp 5F51396B)
     (at 162.965 134.346 60)
     (descr SOD-123)
     (tags SOD-123)

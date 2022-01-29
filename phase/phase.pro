@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=phase_v1_0.net
+LastNetListRead=phase.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -243,7 +243,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=/Users/matthewpauly/Documents/KiCad/phase/phase_v1_0/
+PlotDirectoryName=/Users/matthewpauly/Documents/KiCad/phase/phase/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
