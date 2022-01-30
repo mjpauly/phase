@@ -1,6 +1,6 @@
 # Phase Keyboard
 
-![Phase V1.0](img/phase_v1_0.jpeg)
+![Phase V1.0](img/phase_v1_0_0.jpeg)
 
 - Kyria stagger, Corne thumb cluster, Ferris-inspired electronics.
 - USB-C
@@ -8,11 +8,11 @@
 - MX-style key switch support with optional Kailh hot swap sockets.
 - 42 keys.
 
-## Version 1.0
+## Version 1.0.0
 
 - Manufactured with JLCPCB, built, and tested.
-- SDA and SCL are swapped, so some rework is required. The traces need to be cut, soldermask has to be scraped away, and wires have to be soldered where the soldermask was removed. See the image at `img/phase_v1_0_rework.jpeg`. This will be fixed in a later version at some point.
-- Gerbers sent to the fab can be found at `phase_v1_0/JCLPCB_2020-09-21.zip`.
+- SDA and SCL are swapped, so some rework is required. The traces need to be cut, soldermask has to be scraped away, and wires have to be soldered where the soldermask was removed. See the image at `img/phase_v1_0_0_rework.jpeg`. This will be fixed in a later version at some point.
+- Gerbers sent to the fab can be found at `phase/JCLPCB_2020-09-21.zip`.
 
 ## Part libraries
 
@@ -24,7 +24,7 @@ Firmware can be found here: [https://github.com/mjpauly/qmk_firmware/tree/master
 
 ## BOM
 
-The BOM for SMD components can be found at `phase_v1_0/bom-with-pns-lcsc.csv`. This lists the part numbers that can be purchased from [LCSC](https://lcsc.com). In addition to this, the following may also needed for a complete keyboard:
+The BOM for SMD components can be found at `phase/bom-with-pns-lcsc.csv`. This lists the part numbers that can be purchased from [LCSC](https://lcsc.com). In addition to this, the following may also needed for a complete keyboard:
 - TRRS connectors from [AliExpress](https://www.aliexpress.com/item/33029465106.html).
 - A TRRS cable. [This one](https://www.amazon.com/gp/product/B019EHMN68?psc=1) is good.
 - [Kailh hot swap sockets](https://kbdfans.com/products/mechanical-keyboard-switches-kailh-pcb-socket).
@@ -36,7 +36,7 @@ The BOM for SMD components can be found at `phase_v1_0/bom-with-pns-lcsc.csv`. T
 
 ## Silkscreen
 
-![Silkscreen](img/phase_v1_0_silkscreen.jpeg)
+![Silkscreen](img/phase_v1_0_0_silkscreen.jpeg)
 
 The silkscreen is based on the following images generated with Processing.
 
