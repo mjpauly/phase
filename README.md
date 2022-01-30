@@ -8,7 +8,16 @@
 - MX-style key switch support with optional Kailh hot swap sockets.
 - 42 keys.
 
-## Version 1.0.0
+## Versions
+
+### Version 1.0.1
+
+- Out for fabrication
+- Fixes SDA/SCL swap on v1.0.0
+- Removes silkscreen art
+- Gerbers are at `phase/JLCPCB_2022-01-29.zip`.
+
+### Version 1.0.0
 
 - Manufactured with JLCPCB, built, and tested.
 - SDA and SCL are swapped, so some rework is required. The traces need to be cut, soldermask has to be scraped away, and wires have to be soldered where the soldermask was removed. See the image at `img/phase_v1_0_0_rework.jpeg`. This will be fixed in a later version at some point.
