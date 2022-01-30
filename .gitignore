@@ -1,4 +1,4 @@
-*.DS_Store
+.DS_Store
 *.swp
 
 # kicad files to ignore

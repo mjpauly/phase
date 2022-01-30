@@ -5,17 +5,17 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "(5.1.6-0-10_14)"
+      "Version":     "(5.1.10-1-10_14)"
     },
-    "CreationDate":  "2020-09-21T09:47:25-07:00"
+    "CreationDate":  "2022-01-29T17:31:24-08:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
       "Name": "phase",
-      "GUID": "6d792d6b-6579-4626-9f61-72642e6b6963",
-      "Revision": "rev?"
+      "GUID": "70686173-652e-46b6-9963-61645f706362",
+      "Revision": "v1.0.1"
     },
     "Size":
     {

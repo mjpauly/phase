@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name keyboard_parts)(type Legacy)(uri /Users/matthewpauly/Documents/KiCad/libs/kicad_lib_tmk/keyboard_parts.lib)(options "")(descr ""))
+  (lib (name phase-rescue)(type Legacy)(uri ${KIPRJMOD}/phase-rescue.lib)(options "")(descr ""))
 )

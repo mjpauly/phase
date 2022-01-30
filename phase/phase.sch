@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Phase"
 Date ""
-Rev ""
+Rev "v1.0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -25,7 +25,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
+L phase-rescue:USB_C_Receptacle_USB2.0-Connector J1
 U 1 1 5F4C922C
 P 1100 4900
 F 0 "J1" H 1207 5767 50  0000 C CNN
@@ -716,10 +716,6 @@ F 3 "~" H 5300 4900 50  0001 C CNN
 	1    5300 4900
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4600 5100 5100 5100
-Wire Wire Line
-	4600 5200 5300 5200
 $Comp
 L power:+5V #PWR015
 U 1 1 5F5E779D
@@ -759,17 +755,9 @@ Wire Wire Line
 	5100 4750 5100 4800
 Wire Wire Line
 	5100 5000 5100 5100
-Connection ~ 5100 5100
-Wire Wire Line
-	5100 5100 5900 5100
 Wire Wire Line
 	5300 5000 5300 5200
-Connection ~ 5300 5200
-Wire Wire Line
-	5300 5200 5900 5200
-Text Label 4700 5100 0    50   ~ 0
-SDA
-Text Label 4700 5200 0    50   ~ 0
+Text Label 5700 5200 0    50   ~ 0
 SCL
 $Comp
 L Interface_Expansion:PCA9555PW U2
@@ -1478,7 +1466,7 @@ Wire Wire Line
 	8900 4700 9000 4700
 Wire Wire Line
 	8900 4800 9000 4800
-NoConn ~ 8900 4500
+NoConn ~ 9000 4500
 NoConn ~ 9000 4400
 Wire Wire Line
 	8900 5700 9000 5700
@@ -1500,9 +1488,28 @@ NoConn ~ 9000 5000
 NoConn ~ 9000 5100
 NoConn ~ 9000 5200
 NoConn ~ 9000 5300
-NoConn ~ 3200 2450
 NoConn ~ 8650 3600
 NoConn ~ 4700 4950
 Wire Wire Line
 	4600 6400 4700 6400
+Text Label 5700 5100 0    50   ~ 0
+SDA
+Text Label 4800 5200 2    50   ~ 0
+SDA
+Text Label 4800 5100 2    50   ~ 0
+SCL
+NoConn ~ 4700 6500
+NoConn ~ 4700 6600
+NoConn ~ 4700 6700
+NoConn ~ 4700 6800
+Wire Wire Line
+	9000 4500 8900 4500
+Wire Wire Line
+	5100 5100 5900 5100
+Wire Wire Line
+	5300 5200 5900 5200
+Wire Wire Line
+	4600 5100 4800 5100
+Wire Wire Line
+	4600 5200 4800 5200
 $EndSCHEMATC
