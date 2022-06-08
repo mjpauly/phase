@@ -12,9 +12,9 @@
 
 ### Version 1.0.1
 
-- Out for fabrication
+- Assembled and tested
 - Fixes SDA/SCL swap on v1.0.0
-- Removes silkscreen art
+- Removes silkscreen art (just too cluttered)
 - Gerbers are at `phase/JLCPCB_2022-01-29.zip`.
 
 ### Version 1.0.0
@@ -22,10 +22,6 @@
 - Manufactured with JLCPCB, built, and tested.
 - SDA and SCL are swapped, so some rework is required. The traces need to be cut, soldermask has to be scraped away, and wires have to be soldered where the soldermask was removed. See the image at `img/phase_v1_0_0_rework.jpeg`. This will be fixed in a later version at some point.
 - Gerbers sent to the fab can be found at `phase/JCLPCB_2020-09-21.zip`.
-
-## Part libraries
-
-All non-standard parts are in the project library except for the keyswitch footprint `Kailh_socket_MX_optional_reversible` from [daprice](https://github.com/daprice/keyswitches.pretty). Credit also goes to [Keebio](https://github.com/keebio/Keebio-Parts.pretty) for the TRRS connector footprint `TRRS-PJ-320A-dual`.
 
 ## Firmware
 
@@ -43,7 +39,11 @@ The BOM for SMD components can be found at `phase/bom-with-pns-lcsc.csv`. This l
 - USB-C cable.
 - Rubber feet. [3M SJ5376](https://www.digikey.com/en/products/detail/3m/SJ5376/3866077) are tall enough to work with the hot swap sockets and narrow enough to fit in the pattern of keys.
 
-## Silkscreen
+## Part libraries
+
+All non-standard parts are in the project library except for the keyswitch footprint `Kailh_socket_MX_optional_reversible` from [daprice](https://github.com/daprice/keyswitches.pretty). Credit also goes to [Keebio](https://github.com/keebio/Keebio-Parts.pretty) for the TRRS connector footprint `TRRS-PJ-320A-dual`.
+
+## Silkscreen on v1.0.0
 
 ![Silkscreen](img/phase_v1_0_0_silkscreen.jpeg)
 
