@@ -19,13 +19,13 @@ A one-off moon-themed sand-cast aluminum case was also designed in Spring 2022. 
 - Assembled and tested
 - Fixes SDA/SCL swap
 - Removes silkscreen art (just too cluttered)
-- Gerbers are at `phase/JLCPCB_2022-01-29.zip`.
+- Gerbers are at `phase/JLCPCB_2022-01-29_v1_0_1.zip`.
 
 ### Version 1.0.0
 
 - Manufactured with JLCPCB, built, and tested.
 - SDA and SCL are swapped, so some rework is required. The traces need to be cut, soldermask has to be scraped away, and wires have to be soldered where the soldermask was removed. See the image at `img/phase_v1_0_0_rework.jpeg`. This is fixed in v1.0.1.
-- Gerbers at `phase/JCLPCB_2020-09-21.zip`.
+- Gerbers at `phase/JCLPCB_2020-09-21_v1_0_0.zip`.
 
 ## Firmware
 
